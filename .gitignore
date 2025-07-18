@@ -1,1 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+phishintel/
 .env
+
+
+# VS Code settings
+.vscode/
+
+# IDEs and editors
+*.swp
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Log files
+*.log
+
+# MongoDB dump
+dump/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FastAPI specific
+*.db
+*.sqlite3
+
+# Editor-specific backup files
+*~
+*.bak
